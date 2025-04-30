@@ -6,7 +6,6 @@
 
 
 def main():
-
     while True:
         try:
             user_input = int(input("Enter a whole number: "))
@@ -19,9 +18,8 @@ def main():
             print("Invalid input. Please enter a whole number.")
 
     print(f"\nPowers of two from 0 to {user_input}:")
-    counter = 0
     for counter in range(user_input + 1):
-        power = 2**counter
+        power = 2 ** counter
         print(f"2^{counter} = {power}")
 
 
